@@ -5,13 +5,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
  //Write your code here
-function testSum(num1, num2) {
-  var addNum = num1 + num2;
-  var str = 'The sum of ' + num1 + ' and ' + num2 + ' is ' + addNum;
-  return [str, addNum];
+function sum(num1, num2) {
+  var x = num1 + num2;
+  var str = 'The sum of ' + num1 + ' and ' + num2 + ' is ' + x + '.';
+  return [x, str];
 }
 
- Here is the test for sum(); uncomment it to run it
+ //Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
@@ -25,8 +25,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(x, y) {
   var product = x * y;
-  var str = 'The product of ' + x + ' and ' + y + ' is ' + product;
-  return [str, product];
+  var str = 'The product of ' + x + ' and ' + y + ' is ' + product + '.';
+  return [product, str];
 }
 
 
@@ -46,9 +46,9 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(x, y, z) {
   element1 = x + y + z;
   element2 = x * y * z;
-  str1 = x + ' and ' + y + ' and ' + z + ' sum to ' + element1;
-  str2 = 'The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + element2;
-  return [str1, element1, str2, element2];
+  str1 = x + ' and ' + y + ' and ' + z + ' sum to ' + element1 + '.';
+  str2 = 'The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + element2 + '.';
+  return [element1, element2, str1, str2];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -89,7 +89,7 @@ function multiplyArray(testArray) {
   var x = 1;
   for(var i = 0; i < testArray.length; i++)
       x = x * testArray[i];
-      str = 'The numbers 2,3,4 have a product of ' + x;
+      str = 'The numbers 2,3,4 have a product of ' + x + '.';
       return [x, str];
 }
 
