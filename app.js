@@ -11,7 +11,7 @@ function sum(num1, num2) { //declaring the function as vairable sum assigning th
   return [x, str]; //return the array of variables x and str.
 }
 
- // Here is the test for sum(); uncomment it to run it
+ //Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
@@ -27,7 +27,6 @@ function multiply(x, y) { //Declaring function as variable multiply with paramet
   var product = x * y; //Declaring variable product with a value of x * y.
   var str = 'The product of ' + x + ' and ' + y + ' is ' + product + '.'; // declaring variable str with a value of string concatenated with our variables.
   return [product, str]; //return the array of variables product and str.
-}
 
 
 // Here is the test for multiply(); uncomment it to run it
@@ -49,7 +48,6 @@ function sumAndMultiply(x, y, z) { //Declaring function with variable of sumAndM
   var str1 = x + ' and ' + y + ' and ' + z + ' sum to ' + element1 + '.'; //delcaring variable str1 with a value of strings concatenated with variables.
   var str2 = 'The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + element2 + '.'; //declaing variable str2 with a value of strings concatenated with variables.
   return [element1, element2, str1, str2]; //returning an array of all 4 variables
-}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
@@ -70,7 +68,6 @@ function sumArray(testArray) { // declaring function to variable sumArray with p
       x += testArray[i]; // Adds the value of var x and assigns the result to the array testArray.
       str = '2,3,4 was passed in as an array of numbers, and ' + x + ' is their sum.'; //assigning 2 strings concatenated with variable x to str.
       return [x, str]; // returns an array of x and str.
-}
 
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
@@ -91,7 +88,6 @@ function multiplyArray(testArray) { // declaring a function, assigning it to the
       x = x * testArray[i]; // reassigning x to the value of x times the 3 numbers in the array.
       str = 'The numbers 2,3,4 have a product of ' + x + '.'; //assigning 2 strings concatenated with variable x to str.
       return [x, str]; //returns an array of variables x and str.
-}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
