@@ -106,7 +106,7 @@ testMultiplyArray(testArray);
 /////////////////////////////////////
 
 function testSum() { //opening function for variable testSum
-  if (sum(4,7)[1] === 'The sum of 4 and 7 is 11.') { //opening if statement checking if function sum and its parameters equal this string.
+  if (sum(4,7)[1] === 'The sum of 4 and 7 is 11.') { //opening if statement checking if function sum and its parameters 4 and 7 and the string held at [1] equal the complete string.
     console.log('%c TEST FOR sum() PASSES', 'color: green'); //printing to the console if the result was true.
   } else {
     console.log('%c TEST FOR sum() FAILS', 'color: red'); //printing to the console if the result was false.
@@ -114,34 +114,35 @@ function testSum() { //opening function for variable testSum
 }
 
 function testMultiply() {
-  if (multiply(5,9)[1] === 'The product of 5 and 9 is 45.') {
-    console.log('%c TEST FOR multiply() PASSES', 'color: green');
+  if (multiply(5,9)[1] === 'The product of 5 and 9 is 45.') { //opening if statement checking if function multiply and its parameters 5 and 9 and the string held at [1] equal the complete string.
+    console.log('%c TEST FOR multiply() PASSES', 'color: green'); // printing to the console if the result was true.
   } else {
-    console.log('%c TEST FOR multiply() FAILS', 'color: red');
+    console.log('%c TEST FOR multiply() FAILS', 'color: red'); // printing to the console if the result was false.
   }
 }
 
 function testSumAndMultiply() {
-  if (sumAndMultiply(4, 7, 5)[2] === '4 and 7 and 5 sum to 16.' && sumAndMultiply(4, 7, 5)[3] === 'The product of 4 and 7 and 5 is 140.') {
-    console.log('%c TEST FOR sumAndMultiply() PASSES', 'color: green');
+  if (sumAndMultiply(4, 7, 5)[2] === '4 and 7 and 5 sum to 16.' && sumAndMultiply(4, 7, 5)[3] === 'The product of 4 and 7 and 5 is 140.') { // opening if statement checking if each function sumAndMultiply and their parameters plus the strings held at [2] and [3] equal the complete strings
+    console.log('%c TEST FOR sumAndMultiply() PASSES', 'color: green'); // printing to console if statement is true.
   } else {
-    console.log('%c TEST FOR sumAndMultiply() FAILS', 'color: red');
+    console.log('%c TEST FOR sumAndMultiply() FAILS', 'color: red'); // printing to conosle if statement is false.
   }
 }
 
 function testSumArray() {
-  if (sumArray(testArray)[1] === '2,3,4 was passed in as an array of numbers, and 9 is their sum.') {
-    console.log('%c TEST FOR sumArray() PASSES', 'color: green');
+  if (sumArray(testArray)[1] === '2,3,4 was passed in as an array of numbers, and 9 is their sum.') { // opening if statement checking if the sum of numbers in testArray equal 9 and string held at [1] equal the complete the string
+    console.log('%c TEST FOR sumArray() PASSES', 'color: green'); //printing to console if statement is true
   } else {
-    console.log('%c TEST FOR sumArray() FAILS', 'color: red');
+    console.log('%c TEST FOR sumArray() FAILS', 'color: red'); // printing to console if statement is false.
   }
 }
 
 function testMultiplyArray() {
-  if (multiplyArray(testArray)[1] === 'The numbers 2,3,4 have a product of 24.') {
-    console.log('%c TEST FOR multiplyArray() PASSES', 'color: green');
+  if (multiplyArray(testArray)[1] === 'The numbers 2,3,4 have a product of 24.') { // opening if statemnt checking if the numbers of testArray are multiplied to equal 24 and the string held at [1] equal the complete string
+    console.log('%c TEST FOR multiplyArray() PASSES', 'color: green'); // printing to the console if statement is true.
   } else {
-    console.log('%c TEST FOR multiplyArray() FAILS', 'color: red');
+    console.log('%c TEST FOR multiplyArray() FAILS', 'color: red'); // printing to the console if statement is false
   }
 }
+
 // Contact GitHub API Training Shop Blog About
